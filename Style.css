@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.container-left{
+    width: 28%;
+    background-color: lightgrey;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.container-right{
+    width: 50%;    
+    position: absolute;
+    top: 0;
+    right: 10%;
+    padding: 10px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+input{
+    width: 95%;
+    padding: 8px 0 8px 8px;
+    margin: 10px 0;
+}
+
+button{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    margin: 10px 0;
+}
+.left-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 5px;
+}
+.left-links a:hover{
+    background-color: lightgrey;
+}
+
+.container-right img{
+    width: 24%;
+    margin: 1px;
+}
+#livingroom{
+    width: 100%;
+}
+.right-text{
+    display: flex;
+    margin-bottom: 15px;
+}
+hr{
+    width: 100%;
+    margin: auto;
+    color: lightgrey;
+    
+}
+.right-text div{
+    width: 50%;
+}
+#btn{
+    width: 200px;
+}
+
+#powered a{
+    color: grey;
+    margin: 8px;    
+}
+#powered a:hover{
+    color: green;
+}
